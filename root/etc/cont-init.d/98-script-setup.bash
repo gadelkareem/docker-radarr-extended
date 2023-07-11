@@ -43,7 +43,7 @@ if [  -f "/config/extended/scripts/QueueCleaner.bash" ]; then
 	rm "/config/extended/scripts/QueueCleaner.bash"
 fi
 echo "Downloading and setting up QueueCleaner.bash"
-curl "https://raw.githubusercontent.com/RandomNinjaAtk/arr-scripts/main/QueueCleaner.bash" -o "/config/extended/scripts/QueueCleaner.bash"
+curl "https://raw.githubusercontent.com/gadelkareem/arr-scripts/main/QueueCleaner.bash" -o "/config/extended/scripts/QueueCleaner.bash"
 chmod 777 "/config/extended/scripts/QueueCleaner.bash"
 
 # set permissions

@@ -1,14 +1,10 @@
-# Deprecated
-
-This repository is now deprecated, will no longer be updated and is being archived. 
-
-# [RandomNinjaAtk/radarr-extended](https://github.com/RandomNinjaAtk/docker-radarr-extended)
+# [gadelkareem/radarr-extended](https://github.com/gadelkareem/docker-radarr-extended)
 
 <table>
   <tr>
-    <td><img src="https://raw.githubusercontent.com/RandomNinjaAtk/unraid-templates/master/randomninjaatk/img/radarr.png" width="200"></td>
-    <td><img src="https://github.com/RandomNinjaAtk/docker-lidarr-extended/raw/main/.github/plus.png" width="100"></td>
-    <td><img src="https://raw.githubusercontent.com/RandomNinjaAtk/unraid-templates/master/randomninjaatk/img/amtd.png" width="200"></td>
+    <td><img src="https://raw.githubusercontent.com/gadelkareem/unraid-templates/master/gadelkareem/img/radarr.png" width="200"></td>
+    <td><img src="https://github.com/gadelkareem/docker-lidarr-extended/raw/main/.github/plus.png" width="100"></td>
+    <td><img src="https://raw.githubusercontent.com/gadelkareem/unraid-templates/master/gadelkareem/img/amtd.png" width="200"></td>
   </tr>
  </table>
 
@@ -21,16 +17,13 @@ This repository is now deprecated, will no longer be updated and is being archiv
 
 Radarr itself is not modified in any way, all changes that are pushed to Radarr via public Radarr API's. This is strictly Radarr Develop branch
 
-For more details, visit the [Wiki](https://github.com/RandomNinjaAtk/docker-radarr-extended/wiki)
+For more details, visit the [Wiki](https://github.com/gadelkareem/docker-radarr-extended/wiki)
 
 This containers base image is provided by: [linuxserver/radarr](https://github.com/linuxserver/docker-radarr)
 
 ### All Arr-Extended Apps:
-* [sabnzbd-extended](https://github.com/RandomNinjaAtk/docker-sabnzbd-extended)
-* [lidarr-extended](https://github.com/RandomNinjaAtk/docker-lidarr-extended)
-* [radarr-extended](https://github.com/RandomNinjaAtk/docker-radarr-extended)
-* [sonarr-extended](https://github.com/RandomNinjaAtk/docker-sonarr-extended)
-* [readarr-extended](https://github.com/RandomNinjaAtk/docker-readarr-extended)
+* [radarr-extended](https://github.com/gadelkareem/docker-radarr-extended)
+* [sonarr-extended](https://github.com/gadelkareem/docker-sonarr-extended)
 
 ## Features
 * Downloading **Movie Trailers** and **Extras** using online sources for use in popular applications (Plex/Kodi/Emby/Jellyfin): 
@@ -50,11 +43,11 @@ This containers base image is provided by: [linuxserver/radarr](https://github.c
 * Queue Cleaner Script
   * Automatically removes downloads that have a "warning" or "failed" status that will not auto-import into Radarr, which enables Radarr to automatically re-search for the Title
   
-For more details, visit the [Wiki](https://github.com/RandomNinjaAtk/docker-radarr-extended/wiki)
+For more details, visit the [Wiki](https://github.com/gadelkareem/docker-radarr-extended/wiki)
   
 
 ### Plex Example
-![](https://raw.githubusercontent.com/RandomNinjaAtk/docker-amtd/master/.github/amvtd-plex-example.jpg)
+![](https://raw.githubusercontent.com/gadelkareem/docker-amtd/master/.github/amvtd-plex-example.jpg)
 
 
 ## Supported Architectures
@@ -126,7 +119,7 @@ docker create \
   -e extrasKodiCompatibility=false \
   -e plexUrl=http://x.x.x.x:32400 \
   -e plexToken=Token_Goes_Here \
-  randomninjaatk/radarr-extended:latest
+  gadelkareem/radarr-extended:latest
 ```
 
 
@@ -138,7 +131,7 @@ Compatible with docker-compose v2 schemas.
 version: "2.1"
 services:
   radarr-extended:
-    image: randomninjaatk/radarr-extended:latest
+    image: gadelkareem/radarr-extended:latest
     container_name: radarr-extended
     volumes:
       - /path/to/config/files:/config

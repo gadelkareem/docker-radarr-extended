@@ -9,7 +9,7 @@ FROM linuxserver/radarr:arm64v8-develop
 # Add QEMU
 COPY --from=builder qemu-aarch64-static /usr/bin
 
-LABEL maintainer="RandomNinjaAtk"
+LABEL maintainer="gadelkareem"
 
 ENV SMA_PATH /usr/local/sma
 ENV UPDATE_SMA FALSE
@@ -45,7 +45,7 @@ RUN \
 	chgrp users ${SMA_PATH}/config/sma.log && \
 	chmod g+w ${SMA_PATH}/config/sma.log && \
 	echo "************ install pip dependencies ************" && \
-	python3 -m pip install --user --upgrade pip && \	
+	python3 -m pip install --user --upgrade pip && \
  	pip3 install -r ${SMA_PATH}/setup/requirements.txt && \
 	echo "************ install recyclarr ************" && \
 	mkdir -p /recyclarr && \
