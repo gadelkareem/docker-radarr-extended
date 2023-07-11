@@ -1,13 +1,5 @@
 # [gadelkareem/radarr-extended](https://github.com/gadelkareem/docker-radarr-extended)
 
-<table>
-  <tr>
-    <td><img src="https://raw.githubusercontent.com/gadelkareem/unraid-templates/master/gadelkareem/img/radarr.png" width="200"></td>
-    <td><img src="https://github.com/gadelkareem/docker-lidarr-extended/raw/main/.github/plus.png" width="100"></td>
-    <td><img src="https://raw.githubusercontent.com/gadelkareem/unraid-templates/master/gadelkareem/img/amtd.png" width="200"></td>
-  </tr>
- </table>
-
 [Radarr](https://github.com/Radarr/Radarr) - A fork of Sonarr to work with movies à la Couchpotato.
  
 ### What is Radarr Extended:
